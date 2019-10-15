@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+        <ion-label position="floating">Ingresa tu nombre</ion-label>
+        <ion-input [(ngModel)]= "inputVal"></ion-input>
+    </ion-item>
+  </ion-list>
+
+    <ion-button ion-button round (click)="presentAlert()"> OK</ion-button>
+    
+</ion-content>
